@@ -187,6 +187,8 @@ besogo.create = function(container, options) {
         parent.appendChild(div);
         return div;
     }
+
+    return editor
 }; // END function besogo.create
 
 // Parses size parameter from SGF format
