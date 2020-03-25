@@ -1,6 +1,6 @@
 {
   "name": "besogo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Embeddable SGF player for the game of Go (aka Weiqi, Baduk)",
   "main": "besogo.all.js",
   "scripts": {
