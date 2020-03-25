@@ -1,0 +1,3 @@
+--watch-ignore coverage/
+--watch-ignore node_modules/
+--watch-ignore .git/

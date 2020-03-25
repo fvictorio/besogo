@@ -1,0 +1,65 @@
+Arguments: 
+  /home/fvictorio/.nvm/versions/node/v12.16.0/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/fvictorio/Desktop/google-cloud-sdk/bin:/home/fvictorio/.nvm/versions/node/v12.16.0/bin:/home/fvictorio/.gem/ruby/2.5.0/bin:/home/fvictorio/.rvm/gems/ruby-2.5.1/bin:/home/fvictorio/.gem/ruby/2.3.0/bin:/home/fvictorio/.yarn/bin:/home/fvictorio/.local/kitty.app/bin:/home/fvictorio/.cargo/bin:/home/fvictorio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvictorio/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/home/fvictorio/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/colored-man-pages:/home/fvictorio/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/home/fvictorio/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/safe-paste:/home/fvictorio/.antigen/bundles/rupa/z:/home/fvictorio/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/home/fvictorio/.antigen/bundles/zsh-users/zsh-history-substring-search:/home/fvictorio/repos/git-infer:/home/fvictorio/.antigen/bundles/gmatheu/zsh-plugins/explain-shell:/home/fvictorio/.antigen/bundles/Tarrasch/zsh-bd:/home/fvictorio/.antigen/bundles/Seinh/git-prune:/home/fvictorio/.antigen/bundles/gillchristian/dir_alias:/home/fvictorio/.antigen/bundles/akarzim/zsh-docker-aliases:/home/fvictorio/.antigen/bundles/jez/git-heatmap:/home/fvictorio/.antigen/bundles/jez/git-madge:/home/fvictorio/scripts:/bin:/home/fvictorio/.go/bin:/home/fvictorio/bin:/opt/wine-staging/bin:/home/fvictorio/.cargo/bin:/home/fvictorio/bin/go/bin:/home/fvictorio/bin/spark/bin:/home/fvictorio/.conscript/bin:/home/fvictorio/.local/go/bin:/home/fvictorio/.fzf/bin:/home/fvictorio/android/emulator:/home/fvictorio/android/tools:/home/fvictorio/android/tools/bin:/home/fvictorio/android/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "besogo",
+    "version": "0.0.2",
+    "description": "Embeddable SGF player for the game of Go (aka Weiqi, Baduk)",
+    "main": "besogo.all.js",
+    "scripts": {
+      "build": "rollup --config",
+      "prepare": "npm run build",
+      "lint": "eslint .",
+      "test": "mocha",
+      "test:watch": "mocha --watch",
+      "test:coverage": "nyc --reporter=lcov --reporter=text-summary --reporter=html npm run test"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "eslint": "^6.8.0",
+      "mocha": "^7.1.1",
+      "nyc": "^15.0.0",
+      "rollup": "^2.2.0",
+      "rollup-plugin-commonjs": "^10.1.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yewang/besogo.git"
+    },
+    "keywords": [
+      "go",
+      "weiqi",
+      "baduk",
+      "sgf"
+    ],
+    "author": "yewang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yewang/besogo/issues"
+    },
+    "homepage": "http://yewang.github.io/besogo/"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

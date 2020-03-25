@@ -4,8 +4,25 @@
   "description": "Embeddable SGF player for the game of Go (aka Weiqi, Baduk)",
   "main": "besogo.all.js",
   "scripts": {
-    "build": "./build.sh",
-    "prepare": "npm run build"
+    "build": "rollup --config",
+    "prepare": "npm run build",
+    "lint": "eslint .",
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "test:coverage": "nyc --reporter=lcov --reporter=text-summary --reporter=html npm run test",
+    "prettier": "prettier --write src test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
+    "prettier": "^2.0.2",
+    "rollup": "^2.2.0",
+    "rollup-plugin-commonjs": "^10.1.0"
   },
   "repository": {
     "type": "git",
